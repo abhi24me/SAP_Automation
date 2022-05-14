@@ -113,7 +113,7 @@ def first():
 
 # for putting rows from excel
 def second():
-##    session.findById("wnd[0]/usr/ctxtCN_PROJN-LOW").text = "CL/M0000/00029"
+##    session.findById("wnd[0]/usr/ctxtCN_PROJN-LOW").text = "Some SAP VALUES HERE !"
 ##    session.findById("wnd[0]/usr/ctxtCN_PROJN-LOW").caretPosition = 14
 ##    session.findById("wnd[0]").sendVKey(0)
     session.findById("wnd[0]/usr/ctxtCN_PSPNR-LOW").text = j
